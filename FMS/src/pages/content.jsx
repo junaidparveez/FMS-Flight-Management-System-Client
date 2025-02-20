@@ -1,9 +1,9 @@
 import React from 'react';
-import Login from '../components/Login';
-import HomePage from '../components/HomePage';
+import Login from './Login';
+import HomePage from './HomePage';
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Register from '../components/Register';
+import Register from './Register';
 
 const Content = () => {
   const appRouter = createBrowserRouter([
