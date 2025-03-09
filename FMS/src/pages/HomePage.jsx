@@ -1,8 +1,15 @@
 import React from 'react';
-
+import Navbar from "../components/Navbar"; 
 const HomePage = () => {
   return (
+
+    
     <div>
+
+<div>
+      <Navbar /> {/* Navbar inside HomePage */}
+    
+    </div>
       <h2>Browse Page</h2>
       <p>Welcome to the browse page! Here, you can explore different items or features.</p>
       <ul>

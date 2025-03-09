@@ -23,9 +23,9 @@ const Content = () => {
 
   return (
     <>
-    <div>
+    {/* <div>
       Welcome To Flight Management System
-    </div>
+    </div> */}
       {/* <Login /> <Browse /> */}
       <RouterProvider router={appRouter} />
     </>
