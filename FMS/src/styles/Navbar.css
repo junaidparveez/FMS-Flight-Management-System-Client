@@ -1,10 +1,15 @@
-.navbar {
+.navbar1 {
+  all: unset; 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     background-color: #1a1a1a;
     color: white;
+    position: fixed; /* Keeps it at the top even when scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;
   }
   
   .logo a {
